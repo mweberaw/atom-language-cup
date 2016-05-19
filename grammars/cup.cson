@@ -302,6 +302,9 @@
           {
             'include': '#match_symbol'
           }
+          {
+            'include': '#comments'
+          }
         ]
       }
     ]
