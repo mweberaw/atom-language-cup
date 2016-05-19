@@ -241,6 +241,14 @@
         'endCaptures':
           '1':
             'name': 'punctuation.terminator.cup'
+        'patterns': [
+          {
+            'include': '#comments'
+          }
+          {
+            'include': '#match_symbol'
+          }
+        ]
       }
       {
         'begin': '\\b(non)\\b\\s*\\b(terminal)\\b\\s*(\\w+)?'
@@ -255,6 +263,14 @@
         'endCaptures':
           '1':
             'name': 'punctuation.terminator.cup'
+        'patterns': [
+          {
+            'include': '#comments'
+          }
+          {
+            'include': '#match_symbol'
+          }
+        ]
       }
     ]
   'rules':
